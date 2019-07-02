@@ -18,6 +18,11 @@
   },
   "preferGlobal": true,
   "bin": "./main.js",
+  "dependencies": {
+    "underscore": "1.4.4",
+    "node-hid": "git://github.com/nardi/node-hid.git#crossplatform",
+    "midi": "0.7.0"
+  },
   "engines": {
     "node": ">= 0.8.0"
   }
